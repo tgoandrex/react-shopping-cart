@@ -1,0 +1,42 @@
+.navbar {
+    min-height: 7.5vh;
+}
+
+#main, #cart {
+    min-height: 92.5vh;
+}
+
+#cart {
+    background-color: #000;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+}
+
+#cart-total {
+    margin-top: auto;
+}
+
+.nav-link {
+    color: #0d6efd;
+}
+
+.slide-in {
+    animation-name: slide-in;
+    animation-duration: 1s;
+}
+  
+@keyframes slide-in {
+    from {min-height: 0}
+    to {min-height: 92.5vh}
+}
+
+.fade-in {
+    animation-name: fade-in;
+    animation-duration: 1s;
+}
+  
+@keyframes fade-in {
+    from {opacity: 0}
+    to {opacity: 100%}
+}
